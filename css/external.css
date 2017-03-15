@@ -1,0 +1,50 @@
+input[type=text],
+textarea {
+  padding: 5px;
+  width: 100%;
+}
+
+label {
+  margin-top: 10px;
+}
+
+.excerpt p:after {
+  content: "\f178";
+  font-family: 'FontAwesome';
+  margin-left: .3em;
+  color: #d9b351;
+}
+
+table {
+  border: 1px solid #1b1b1b;
+}
+
+table tr {
+
+}
+
+table tr td {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.35em;
+  border: 1px solid #1b1b1b;
+}
+
+table td p {
+  margin: 0;
+}
+
+table thead tr td,
+table thead strong {
+  color: #fff;
+  background-color: #1d2c5a;
+}
+
+table th td {
+  font-weight: bold;
+}
+
+table strong {
+  color: #1d2c5a;
+}
